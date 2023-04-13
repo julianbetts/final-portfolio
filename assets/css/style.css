@@ -101,9 +101,9 @@ main {
   text-align: right;
 }
 
-.hero-banner div {
+/* .hero-banner div {
   flex: 0 0 90%;
-}
+} */
 
 .hero-banner h2 {
   background-color: var(--secondary);
@@ -156,7 +156,7 @@ main {
 
 .flex-item {
   border: 5px solid var(--secondary);
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: var(--tertiary);
   min-height: 400px;
   /* max-height: 150px; */
@@ -221,23 +221,15 @@ main {
 }
 
 /* portfolio project images */
-.run-buddy {
-  background-image: url("../images/02-run-buddy.jpg");
+
+
+.password-generator {
+  background-image: url("../images/padlock.jpg");
 }
 
-.led-wall {
-  background-image: url("../images/02-portfolio-1.jpg");
-}
 
-.react-calc {
-  background-image: url("../images/02-portfolio-2.jpg");
-}
 
-.pastel-puzzles {
-  background-image: url("../images/02-portfolio-3.jpg");
-}
-
-.surf-report {
+.weather-app{
   background-image: url("../images/sunny-day.jpg");
 }
 
