@@ -169,6 +169,7 @@ main {
   text-decoration: none;
   background-blend-mode: soft-light;
   background-size: 150%;
+  background-position: center;
   transition: all 0.5s;
   font-size: 0.9rem;
 }
@@ -272,11 +273,12 @@ main {
   .flex-item,
   .flex-item:first-child {
     flex-basis: 100%;
-  }
-
-  .flex-item:first-child {
     min-height: 150px;
   }
+
+  /* .flex-item:first-child {
+    min-height: 150px;
+  } */
 
   .hero-banner {
     justify-content: center;
