@@ -4,11 +4,11 @@
 
 /* brand color palette */
 :root {
-  --primary: 	#77867f;
-  --secondary: #472c4c;
-  --tertiary: 	#c8e9a0;
-  --dark: rgba(28, 29, 33, 1);
-  --light: #472c4c;
+  --primary: #a0e9a5;
+  --secondary: #4b0101;
+  --tertiary: #a0bcd0;
+  --dark: rgb(43, 45, 54);
+  --light: #4b0101;
 }
 
 body {
